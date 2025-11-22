@@ -1,0 +1,225 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif; 
+    line-height: 1.7;
+}
+
+
+
+:root {
+       
+    --color-highlight-yellow: #c3c341;
+    --color-orange: #f0480b;
+    --color-text-light: #fff;
+    --color-dark-grey: #5b5959;
+    --color-green: #2a743a;
+    --color-text-dark: #343232;
+}
+
+.head {
+    padding: 16px 29px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end; 
+    border-bottom: 1px solid #fff;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.header h1 {
+     padding-top: 30px;
+    color: var(--color-text-dark);
+    font-size: 1.6em;
+    letter-spacing: 2px;
+}
+
+.templated {
+    margin-top: 25px;
+    height : 40px;
+    color: #b2b1b1;
+    margin-left: 10px;
+    border-left: 3px solid #858383;
+    padding-left: 10px;
+    padding-top: 13px;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: var(--color-text-dark);
+    padding: 10px 15px;
+    display: block;
+    font-size: 0.85em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.nav li:first-child a {
+    background-color: var(--color-orange); 
+    color: white;
+}
+ .ourclients {
+    background-color: rgb(179, 175, 175);
+    margin-right:  2px;
+ }
+ .aboutas{
+    background-color: rgb(179, 175, 175);
+    margin-right:  2px;
+
+ }
+ .careers{
+      background-color: rgb(179, 175, 175);
+    margin-right:  2px;
+
+ }
+ .contactas{
+    background-color: rgb(179, 175, 175);
+    margin-right:  2px;
+
+ }
+
+
+.bansection {
+    position: relative;
+}
+
+.banimage {
+    max-height: 500px;
+    overflow: hidden;
+}
+
+.bannerimg {
+    width: 100%;
+    display: block;
+
+}
+
+.banner-box {
+    background-color: var(--color-orange);
+    color: rgb(101, 97, 97);
+    padding: 20px 0;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 0.9em;
+    height: 200px;
+}
+
+.banner-box p {
+    padding: 0 20px;
+    max-width: 1100px;
+    margin: 10px auto;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.dark-bg {
+    background-color: var(--color-dark-grey);
+    color: var(--color-text-light);
+    padding: 60px 0;
+}
+
+.dark-bg-2 {
+    background-color: var(--color-dark-grey);
+    color: var(--color-text-light);
+    padding: 40px 0 80px;
+    border-top: 1px solid #3e3c3c;
+}
+
+.feature-grid {
+    justify-content: space-between;
+    display: flex;
+    gap: 30px;
+}
+
+.feature, .content-item {
+    flex-basis: 25%;
+}
+
+.feature {
+    text-align: center;
+}
+
+.icon{
+    display: block;
+    font-size: 3em;
+    background-color: var(--color-orange);
+    margin-bottom: 10px;
+    width: 100px;
+    margin: auto;
+}
+.feature p {
+    font-size: 0.85em;
+}
+
+.feature h3, .content-item h3 {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+
+
+
+.section2 {
+    background-color: white;
+    padding: 80px 0;
+    text-align: center;
+    color: var(--color-text-dark);
+}
+
+.section2 h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.section2 p {
+    color: #777;
+    margin-bottom: 30px;
+    font-size: 0.95em;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.button {
+    background-color: var(--color-green);
+    color: white;
+    text-decoration: none;
+    padding: 12px 30px;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.footer {
+    background-color: var(--color-green);
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.75em;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
